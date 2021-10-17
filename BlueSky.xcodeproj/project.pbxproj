@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95409EA9271BBE0100780E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EA8271BBE0100780E5A /* AppDelegate.swift */; };
+		95409EAB271BBE0100780E5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EAA271BBE0100780E5A /* SceneDelegate.swift */; };
+		95409EAD271BBE0100780E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EAC271BBE0100780E5A /* ViewController.swift */; };
+		95409EB0271BBE0100780E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95409EAE271BBE0100780E5A /* Main.storyboard */; };
+		95409EB3271BBE0100780E5A /* BlueSky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95409EB1271BBE0100780E5A /* BlueSky.xcdatamodeld */; };
+		95409EB5271BBE0300780E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95409EB4271BBE0300780E5A /* Assets.xcassets */; };
+		95409EB8271BBE0300780E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95409EB6271BBE0300780E5A /* LaunchScreen.storyboard */; };
+		95409EC3271BBE0300780E5A /* BlueSkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EC2271BBE0300780E5A /* BlueSkyTests.swift */; };
+		95409ECD271BBE0300780E5A /* BlueSkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409ECC271BBE0300780E5A /* BlueSkyUITests.swift */; };
+		95409ECF271BBE0300780E5A /* BlueSkyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409ECE271BBE0300780E5A /* BlueSkyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95409EBF271BBE0300780E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95409E9D271BBE0100780E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95409EA4271BBE0100780E5A;
+			remoteInfo = BlueSky;
+		};
+		95409EC9271BBE0300780E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95409E9D271BBE0100780E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95409EA4271BBE0100780E5A;
+			remoteInfo = BlueSky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95409EA5271BBE0100780E5A /* BlueSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95409EA8271BBE0100780E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95409EAA271BBE0100780E5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95409EAC271BBE0100780E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95409EAF271BBE0100780E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95409EB2271BBE0100780E5A /* BlueSky.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlueSky.xcdatamodel; sourceTree = "<group>"; };
+		95409EB4271BBE0300780E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95409EB7271BBE0300780E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95409EB9271BBE0300780E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95409EBE271BBE0300780E5A /* BlueSkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueSkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95409EC2271BBE0300780E5A /* BlueSkyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSkyTests.swift; sourceTree = "<group>"; };
+		95409EC8271BBE0300780E5A /* BlueSkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueSkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95409ECC271BBE0300780E5A /* BlueSkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSkyUITests.swift; sourceTree = "<group>"; };
+		95409ECE271BBE0300780E5A /* BlueSkyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSkyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95409EA2271BBE0100780E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95409EBB271BBE0300780E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95409EC5271BBE0300780E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95409E9C271BBE0100780E5A = {
+			isa = PBXGroup;
+			children = (
+				95409EA7271BBE0100780E5A /* BlueSky */,
+				95409EC1271BBE0300780E5A /* BlueSkyTests */,
+				95409ECB271BBE0300780E5A /* BlueSkyUITests */,
+				95409EA6271BBE0100780E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95409EA6271BBE0100780E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95409EA5271BBE0100780E5A /* BlueSky.app */,
+				95409EBE271BBE0300780E5A /* BlueSkyTests.xctest */,
+				95409EC8271BBE0300780E5A /* BlueSkyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95409EA7271BBE0100780E5A /* BlueSky */ = {
+			isa = PBXGroup;
+			children = (
+				95409EA8271BBE0100780E5A /* AppDelegate.swift */,
+				95409EAA271BBE0100780E5A /* SceneDelegate.swift */,
+				95409EAC271BBE0100780E5A /* ViewController.swift */,
+				95409EAE271BBE0100780E5A /* Main.storyboard */,
+				95409EB4271BBE0300780E5A /* Assets.xcassets */,
+				95409EB6271BBE0300780E5A /* LaunchScreen.storyboard */,
+				95409EB9271BBE0300780E5A /* Info.plist */,
+				95409EB1271BBE0100780E5A /* BlueSky.xcdatamodeld */,
+			);
+			path = BlueSky;
+			sourceTree = "<group>";
+		};
+		95409EC1271BBE0300780E5A /* BlueSkyTests */ = {
+			isa = PBXGroup;
+			children = (
+				95409EC2271BBE0300780E5A /* BlueSkyTests.swift */,
+			);
+			path = BlueSkyTests;
+			sourceTree = "<group>";
+		};
+		95409ECB271BBE0300780E5A /* BlueSkyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95409ECC271BBE0300780E5A /* BlueSkyUITests.swift */,
+				95409ECE271BBE0300780E5A /* BlueSkyUITestsLaunchTests.swift */,
+			);
+			path = BlueSkyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95409EA4271BBE0100780E5A /* BlueSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95409ED2271BBE0300780E5A /* Build configuration list for PBXNativeTarget "BlueSky" */;
+			buildPhases = (
+				95409EA1271BBE0100780E5A /* Sources */,
+				95409EA2271BBE0100780E5A /* Frameworks */,
+				95409EA3271BBE0100780E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueSky;
+			productName = BlueSky;
+			productReference = 95409EA5271BBE0100780E5A /* BlueSky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95409EBD271BBE0300780E5A /* BlueSkyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95409ED5271BBE0300780E5A /* Build configuration list for PBXNativeTarget "BlueSkyTests" */;
+			buildPhases = (
+				95409EBA271BBE0300780E5A /* Sources */,
+				95409EBB271BBE0300780E5A /* Frameworks */,
+				95409EBC271BBE0300780E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95409EC0271BBE0300780E5A /* PBXTargetDependency */,
+			);
+			name = BlueSkyTests;
+			productName = BlueSkyTests;
+			productReference = 95409EBE271BBE0300780E5A /* BlueSkyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95409EC7271BBE0300780E5A /* BlueSkyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95409ED8271BBE0300780E5A /* Build configuration list for PBXNativeTarget "BlueSkyUITests" */;
+			buildPhases = (
+				95409EC4271BBE0300780E5A /* Sources */,
+				95409EC5271BBE0300780E5A /* Frameworks */,
+				95409EC6271BBE0300780E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95409ECA271BBE0300780E5A /* PBXTargetDependency */,
+			);
+			name = BlueSkyUITests;
+			productName = BlueSkyUITests;
+			productReference = 95409EC8271BBE0300780E5A /* BlueSkyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95409E9D271BBE0100780E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					95409EA4271BBE0100780E5A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					95409EBD271BBE0300780E5A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 95409EA4271BBE0100780E5A;
+					};
+					95409EC7271BBE0300780E5A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 95409EA4271BBE0100780E5A;
+					};
+				};
+			};
+			buildConfigurationList = 95409EA0271BBE0100780E5A /* Build configuration list for PBXProject "BlueSky" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95409E9C271BBE0100780E5A;
+			productRefGroup = 95409EA6271BBE0100780E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95409EA4271BBE0100780E5A /* BlueSky */,
+				95409EBD271BBE0300780E5A /* BlueSkyTests */,
+				95409EC7271BBE0300780E5A /* BlueSkyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95409EA3271BBE0100780E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95409EB8271BBE0300780E5A /* LaunchScreen.storyboard in Resources */,
+				95409EB5271BBE0300780E5A /* Assets.xcassets in Resources */,
+				95409EB0271BBE0100780E5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95409EBC271BBE0300780E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95409EC6271BBE0300780E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95409EA1271BBE0100780E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95409EAD271BBE0100780E5A /* ViewController.swift in Sources */,
+				95409EA9271BBE0100780E5A /* AppDelegate.swift in Sources */,
+				95409EAB271BBE0100780E5A /* SceneDelegate.swift in Sources */,
+				95409EB3271BBE0100780E5A /* BlueSky.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95409EBA271BBE0300780E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95409EC3271BBE0300780E5A /* BlueSkyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95409EC4271BBE0300780E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95409ECF271BBE0300780E5A /* BlueSkyUITestsLaunchTests.swift in Sources */,
+				95409ECD271BBE0300780E5A /* BlueSkyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95409EC0271BBE0300780E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95409EA4271BBE0100780E5A /* BlueSky */;
+			targetProxy = 95409EBF271BBE0300780E5A /* PBXContainerItemProxy */;
+		};
+		95409ECA271BBE0300780E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95409EA4271BBE0100780E5A /* BlueSky */;
+			targetProxy = 95409EC9271BBE0300780E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95409EAE271BBE0100780E5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95409EAF271BBE0100780E5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95409EB6271BBE0300780E5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95409EB7271BBE0300780E5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95409ED0271BBE0300780E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95409ED1271BBE0300780E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95409ED3271BBE0300780E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueSky/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tordenvar.BlueSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95409ED4271BBE0300780E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlueSky/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tordenvar.BlueSky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95409ED6271BBE0300780E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tordenvar.BlueSkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueSky.app/BlueSky";
+			};
+			name = Debug;
+		};
+		95409ED7271BBE0300780E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tordenvar.BlueSkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueSky.app/BlueSky";
+			};
+			name = Release;
+		};
+		95409ED9271BBE0300780E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tordenvar.BlueSkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlueSky;
+			};
+			name = Debug;
+		};
+		95409EDA271BBE0300780E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tordenvar.BlueSkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlueSky;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95409EA0271BBE0100780E5A /* Build configuration list for PBXProject "BlueSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95409ED0271BBE0300780E5A /* Debug */,
+				95409ED1271BBE0300780E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95409ED2271BBE0300780E5A /* Build configuration list for PBXNativeTarget "BlueSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95409ED3271BBE0300780E5A /* Debug */,
+				95409ED4271BBE0300780E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95409ED5271BBE0300780E5A /* Build configuration list for PBXNativeTarget "BlueSkyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95409ED6271BBE0300780E5A /* Debug */,
+				95409ED7271BBE0300780E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95409ED8271BBE0300780E5A /* Build configuration list for PBXNativeTarget "BlueSkyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95409ED9271BBE0300780E5A /* Debug */,
+				95409EDA271BBE0300780E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95409EB1271BBE0100780E5A /* BlueSky.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95409EB2271BBE0100780E5A /* BlueSky.xcdatamodel */,
+			);
+			currentVersion = 95409EB2271BBE0100780E5A /* BlueSky.xcdatamodel */;
+			path = BlueSky.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95409E9D271BBE0100780E5A /* Project object */;
+}
