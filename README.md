@@ -35,3 +35,4 @@ These examples are displayed on an iPhone 11, however it works for all iPhone, i
 * Forecast images for the next four days
 * Time of sunrise (local time)
 * Time of sunset (local time)
+* Adaptive background based on time of day
