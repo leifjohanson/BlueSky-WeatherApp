@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		95409EA9271BBE0100780E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EA8271BBE0100780E5A /* AppDelegate.swift */; };
 		95409EAB271BBE0100780E5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EAA271BBE0100780E5A /* SceneDelegate.swift */; };
-		95409EAD271BBE0100780E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EAC271BBE0100780E5A /* ViewController.swift */; };
 		95409EB0271BBE0100780E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95409EAE271BBE0100780E5A /* Main.storyboard */; };
 		95409EB3271BBE0100780E5A /* BlueSky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95409EB1271BBE0100780E5A /* BlueSky.xcdatamodeld */; };
 		95409EB5271BBE0300780E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95409EB4271BBE0300780E5A /* Assets.xcassets */; };
@@ -17,6 +16,13 @@
 		95409EC3271BBE0300780E5A /* BlueSkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EC2271BBE0300780E5A /* BlueSkyTests.swift */; };
 		95409ECD271BBE0300780E5A /* BlueSkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409ECC271BBE0300780E5A /* BlueSkyUITests.swift */; };
 		95409ECF271BBE0300780E5A /* BlueSkyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409ECE271BBE0300780E5A /* BlueSkyUITestsLaunchTests.swift */; };
+		95409EDF271F65C700780E5A /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EDE271F65C700780E5A /* WeatherViewController.swift */; };
+		95409EE1271F9CDB00780E5A /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EE0271F9CDB00780E5A /* WeatherManager.swift */; };
+		95409EE32720D77A00780E5A /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EE22720D77A00780E5A /* WeatherData.swift */; };
+		95409EE52720E14700780E5A /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EE42720E14600780E5A /* WeatherModel.swift */; };
+		95409EE727212A1000780E5A /* ForecastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EE627212A1000780E5A /* ForecastManager.swift */; };
+		95409EE927212A1E00780E5A /* ForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EE827212A1E00780E5A /* ForecastData.swift */; };
+		95409EEB27212A2B00780E5A /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95409EEA27212A2B00780E5A /* ForecastModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,6 @@
 		95409EA5271BBE0100780E5A /* BlueSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95409EA8271BBE0100780E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95409EAA271BBE0100780E5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95409EAC271BBE0100780E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95409EAF271BBE0100780E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95409EB2271BBE0100780E5A /* BlueSky.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlueSky.xcdatamodel; sourceTree = "<group>"; };
 		95409EB4271BBE0300780E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		95409EC8271BBE0300780E5A /* BlueSkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueSkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95409ECC271BBE0300780E5A /* BlueSkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSkyUITests.swift; sourceTree = "<group>"; };
 		95409ECE271BBE0300780E5A /* BlueSkyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueSkyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		95409EDE271F65C700780E5A /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		95409EE0271F9CDB00780E5A /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		95409EE22720D77A00780E5A /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		95409EE42720E14600780E5A /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		95409EE627212A1000780E5A /* ForecastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastManager.swift; sourceTree = "<group>"; };
+		95409EE827212A1E00780E5A /* ForecastData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastData.swift; sourceTree = "<group>"; };
+		95409EEA27212A2B00780E5A /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +115,10 @@
 			children = (
 				95409EA8271BBE0100780E5A /* AppDelegate.swift */,
 				95409EAA271BBE0100780E5A /* SceneDelegate.swift */,
-				95409EAC271BBE0100780E5A /* ViewController.swift */,
-				95409EAE271BBE0100780E5A /* Main.storyboard */,
+				95409EDB271E9AC200780E5A /* Model */,
+				95409EDC271E9ACC00780E5A /* View */,
+				95409EDD271E9AD200780E5A /* Controller */,
 				95409EB4271BBE0300780E5A /* Assets.xcassets */,
-				95409EB6271BBE0300780E5A /* LaunchScreen.storyboard */,
 				95409EB9271BBE0300780E5A /* Info.plist */,
 				95409EB1271BBE0100780E5A /* BlueSky.xcdatamodeld */,
 			);
@@ -128,6 +140,52 @@
 				95409ECE271BBE0300780E5A /* BlueSkyUITestsLaunchTests.swift */,
 			);
 			path = BlueSkyUITests;
+			sourceTree = "<group>";
+		};
+		95409EDB271E9AC200780E5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95409EED27212A8400780E5A /* Weather */,
+				95409EEC27212A6800780E5A /* Forecast */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95409EDC271E9ACC00780E5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95409EAE271BBE0100780E5A /* Main.storyboard */,
+				95409EB6271BBE0300780E5A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95409EDD271E9AD200780E5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95409EDE271F65C700780E5A /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95409EEC27212A6800780E5A /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				95409EE827212A1E00780E5A /* ForecastData.swift */,
+				95409EE627212A1000780E5A /* ForecastManager.swift */,
+				95409EEA27212A2B00780E5A /* ForecastModel.swift */,
+			);
+			path = Forecast;
+			sourceTree = "<group>";
+		};
+		95409EED27212A8400780E5A /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				95409EE22720D77A00780E5A /* WeatherData.swift */,
+				95409EE0271F9CDB00780E5A /* WeatherManager.swift */,
+				95409EE42720E14600780E5A /* WeatherModel.swift */,
+			);
+			path = Weather;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95409EAD271BBE0100780E5A /* ViewController.swift in Sources */,
 				95409EA9271BBE0100780E5A /* AppDelegate.swift in Sources */,
+				95409EDF271F65C700780E5A /* WeatherViewController.swift in Sources */,
+				95409EE727212A1000780E5A /* ForecastManager.swift in Sources */,
+				95409EE1271F9CDB00780E5A /* WeatherManager.swift in Sources */,
+				95409EE52720E14700780E5A /* WeatherModel.swift in Sources */,
 				95409EAB271BBE0100780E5A /* SceneDelegate.swift in Sources */,
+				95409EE32720D77A00780E5A /* WeatherData.swift in Sources */,
+				95409EE927212A1E00780E5A /* ForecastData.swift in Sources */,
+				95409EEB27212A2B00780E5A /* ForecastModel.swift in Sources */,
 				95409EB3271BBE0100780E5A /* BlueSky.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +512,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,6 +540,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
