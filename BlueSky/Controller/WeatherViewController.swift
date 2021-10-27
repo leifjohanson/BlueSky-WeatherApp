@@ -138,6 +138,7 @@ class WeatherViewController: UIViewController, UITextFieldDelegate, WeatherManag
             
             self.d1HighLabel.text = "H: " + weather.highAndLowArray[0] + "°F"
             self.d1LowLabel.text = "L: " + weather.highAndLowArray[1] + "°F"
+            self.d1ImageView.image = UIImage(systemName: weather.conditionName + ".fill")
             
         }
   
@@ -184,7 +185,6 @@ class WeatherViewController: UIViewController, UITextFieldDelegate, WeatherManag
             self.d4DayLabel.text = forecast.forecastDays[3]
             self.d5DayLabel.text = forecast.forecastDays[4]
         
-            self.d1ImageView.image = UIImage(systemName: forecast.conditionName(conditionID: forecast.dIDs[0]))
             self.d2ImageView.image = UIImage(systemName: forecast.conditionName(conditionID: forecast.dIDs[1]))
             self.d3ImageView.image = UIImage(systemName: forecast.conditionName(conditionID: forecast.dIDs[2]))
             self.d4ImageView.image = UIImage(systemName: forecast.conditionName(conditionID: forecast.dIDs[3]))
